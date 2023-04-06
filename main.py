@@ -142,7 +142,9 @@ def pawnMovement(s, color):
 
 
 # Main Function
-drawBoard(' ',' ')
-drawBoard('d3', 'd6')
-drawBoard('Nc3', 'Nc6')
+drawBoard(' ',' ') #clear the board
+drawBoard('d3', 'd6') # Draw pawn move
+input("Press Enter to continue...")
+drawBoard('Nc3', 'Nc6') # Draw knight move
+input("Press Enter to continue...")
 drawBoard('a3', 'h6')
