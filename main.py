@@ -1,6 +1,7 @@
 from tabulate import tabulate
 import colorama
 from colorama import Fore
+import os
 
 # Chess pieces are global to modify at run
 
@@ -145,6 +146,8 @@ def pawnMovement(s, color):
 drawBoard(' ',' ') #clear the board
 drawBoard('d3', 'd6') # Draw pawn move
 input("Press Enter to continue...")
+os.system('cls||clear')
 drawBoard('Nc3', 'Nc6') # Draw knight move
 input("Press Enter to continue...")
+os.system('cls||clear')
 drawBoard('a3', 'h6')
